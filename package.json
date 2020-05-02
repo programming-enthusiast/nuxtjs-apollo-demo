@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-apollo",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "4.0.0-rc4",
+    "apollo-cache-inmemory": "1.5.1",
+    "apollo-client": "2.5.1",
+    "apollo-link-persisted-queries": "0.2.2",
+    "core-js": "2.6.5",
+    "graphql": "14.1.1",
+    "graphql-tag": "2.10.1",
+    "node-fetch": "2.4.1",
+    "nuxt": "2.6.3",
+    "reqlim": "0.0.0"
+  },
+  "keywords": []
+}
